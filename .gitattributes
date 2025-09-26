@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+Engine/Binaries/Win64/UnrealGame-Win64-Shipping.exe filter=lfs diff=lfs merge=lfs -text
+Game/Content/Paks/Game-Windows.ucas filter=lfs diff=lfs merge=lfs -text
